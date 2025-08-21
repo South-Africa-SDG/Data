@@ -43,10 +43,10 @@ inputs:
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
   #- class: InputSdmxMl_Structure
-  #  source: https://zw.sdmx.afdb.org/ns-ws/rest/data/ZW1,DF_ZW_SDG,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD
-  #  dsd: https://zw.sdmx.afdb.org/ns-ws/rest/datastructure/ZW1/SDG/1.1/?detail=Full&references=Descendants
+  #  source: INSERT API URL FOR SDMX DATA
+  #  dsd: INSERT API URL FOR DSD
   #  dimension_map:
-  #    REF_AREA|ZW: ''
+  #    REF_AREA|COUNTRYCODE: ''
   #  drop_dimensions:
   #    - FREQ
   #    - REPORTING_TYPE
@@ -89,7 +89,7 @@ translations:
   - class: TranslationInputYaml
     source: translations
 #  - class: TranslationInputSdmx
-#    source: https://zw.sdmx.afdb.org/ns-ws/rest/datastructure/ZW1/SDG/1.1/?detail=Full&references=Descendants
+#    source: INSERT API URL FOR DSD
 #    request_params:
 #      headers:
 #        User-Agent: Open-SDG-Build-1
