@@ -1,1 +1,9 @@
-Year,Value
+Year,Observation status,Unit multiplier,SOURCE_DETAIL,SERIES,Reference area,UNIT_MEASURE,Value
+2015,Normal value,Units,"General Household Survey (GHS), Stats SA",Proportion of population using safely managed drinking water services [6.1.1],South Africa,Percent,87.5
+2016,Normal value,Units,"General Household Survey (GHS), Stats SA",Proportion of population using safely managed drinking water services [6.1.1],South Africa,Percent,86.8
+2017,Normal value,Units,"General Household Survey (GHS), Stats SA",Proportion of population using safely managed drinking water services [6.1.1],South Africa,Percent,86.4
+2018,Normal value,Units,"General Household Survey (GHS), Stats SA",Proportion of population using safely managed drinking water services [6.1.1],South Africa,Percent,87.1
+2019,Normal value,Units,"General Household Survey (GHS), Stats SA",Proportion of population using safely managed drinking water services [6.1.1],South Africa,Percent,86.2
+2020,Normal value,Units,"General Household Survey (GHS), Stats SA",Proportion of population using safely managed drinking water services [6.1.1],South Africa,Percent,86.6
+2021,Normal value,Units,"General Household Survey (GHS), Stats SA",Proportion of population using safely managed drinking water services [6.1.1],South Africa,Percent,86.3
+2022,Normal value,Units,"General Household Survey (GHS), Stats SA",Proportion of population using safely managed drinking water services [6.1.1],South Africa,Percent,86.2
