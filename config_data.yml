@@ -42,23 +42,23 @@ inputs:
   - class: InputCsvData
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
-  #- class: InputSdmxMl_Structure
-  #  source: INSERT API URL FOR SDMX DATA
-  #  dsd: INSERT API URL FOR DSD
-  #  dimension_map:
-  #    REF_AREA|COUNTRYCODE: ''
-  #  drop_dimensions:
-  #    - FREQ
-  #    - REPORTING_TYPE
-  #    - NATURE
-  #    - TIME_PERIOD
-  #  drop_singleton_dimensions: false
-  #  import_series_attributes: true
-  #  import_observation_attributes: true
-  #  import_codes: true
-  #  request_params: 
-  #    headers: 
-  #      User-Agent: Open-SDG-Build-1 
+  - class: InputSdmxMl_Structure
+    source: https://za.sdmx.afdb.org/ns-ws/rest/dataflow/ZA1/DF_SDG_ZA/1.0/?detail=Full&references=Descendants
+    dsd: https://za.sdmx.afdb.org/ns-ws/rest/dataflow/ZA1/DF_SDG_ZA/1.0/?detail=Full&references=Descendants
+    dimension_map:
+      REF_AREA|ZA: ''
+    drop_dimensions:
+      - FREQ
+      - REPORTING_TYPE
+      - NATURE
+      - TIME_PERIOD
+    drop_singleton_dimensions: false
+    import_series_attributes: true
+    import_observation_attributes: true
+    import_codes: true
+    request_params: 
+      headers: 
+        User-Agent: Open-SDG-Build-1 
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
   - class: InputYamlMeta
@@ -89,7 +89,7 @@ translations:
   - class: TranslationInputYaml
     source: translations
   - class: TranslationInputSdmx
-    source: https://za.sdmx.afdb.org/ns-ws/rest/dataflow/ZA1/DF_SDG_TEST/1.0/?detail=Full&references=Descendants
+    source: https://za.sdmx.afdb.org/ns-ws/rest/dataflow/ZA1/DF_SDG_ZA/1.0/?detail=Full&references=Descendants
     request_params:
       headers:
         User-Agent: Open-SDG-Build-1
