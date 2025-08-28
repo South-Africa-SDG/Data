@@ -36,6 +36,7 @@ placeholder: ''
 precision: []
 progress_calculation_options:
   - direction: positive
+  - series: SH_SAN_SAFE
 progress_status: ''
 proxy: ''
 proxy_series: []
