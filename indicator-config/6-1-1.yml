@@ -1,6 +1,6 @@
 auto_progress_calculation: false
 composite_breakdown_label: ''
-computation_units: Percent
+computation_units: ''
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -40,7 +40,7 @@ proxy: ''
 proxy_series: []
 publications: []
 related_indicators: []
-reporting_status: complete
+reporting_status: notstarted
 sort: ''
 sources: []
 standalone: false
