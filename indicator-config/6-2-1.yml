@@ -34,8 +34,11 @@ page_content: ''
 permalink: ''
 placeholder: ''
 precision: []
-progress_calculation_options:
-- direction: positive
+progress_calculation_options: 
+- disaggregation:
+  - field: Reference Area
+    value: South Africa
+  direction: negative
 progress_status: ''
 proxy: ''
 proxy_series: []
